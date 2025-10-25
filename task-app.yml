@@ -2,7 +2,13 @@ server:
   port: 8080
 
 spring:
+  application:
+    name: task-app
   datasource:
     url: jdbc:mysql://mysql-db:3306/taskdb
     username: root
-    password: yourpassword
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
