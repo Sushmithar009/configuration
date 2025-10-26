@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: task-app
+    name: task-app-default
   datasource:
     url: jdbc:mysql://mysql-db:3306/taskdb
     username: root
